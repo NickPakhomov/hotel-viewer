@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="?android:selectableItemBackground"
+              android:orientation="vertical"
+              android:padding="@dimen/list_item_padding">
+    <TextView
+        android:id="@+id/tv_hotelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@color/colorDetailedText"
+        android:textStyle="bold"/>
+
+    <RatingBar android:id="@+id/rating_bar_hotel_stars"
+               style="?android:attr/ratingBarStyleSmall"
+               android:layout_width="wrap_content"
+               android:layout_height="20dp"
+               android:layout_marginTop="@dimen/list_item_margin_top"
+               android:isIndicator="true"
+               android:numStars="5"
+               android:stepSize="0.5"/>
+
+    <TextView
+        android:id="@+id/tv_hotelAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/list_item_margin_top"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/colorDetailedText"/>
+    <TextView
+        android:id="@+id/tv_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/list_item_margin_top"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/colorDetailedText"/>
+
+    <TextView
+        android:id="@+id/tv_suitsAvailable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="@dimen/list_item_margin_top"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/colorDetailedText"/>
+</LinearLayout>

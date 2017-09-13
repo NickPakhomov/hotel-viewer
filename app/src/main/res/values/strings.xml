@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Hotels Viewer</string>
+
+    <string name="menu_title_refresh">Refresh</string>
+    <string name="menu_title_preferences">Preferences</string>
+
+    <string name="main_suits_available">Suits available: %1$d</string>
+    <string name="detailed_suits_available">Suits available: %1$s</string>
+    <string name="distance_imperial">%1$.2f miles</string>
+    <string name="distance_metric">%1$.2f km</string>
+
+
+    <string name="error_internet_connection">Please check internet connection</string>
+
+    <string name="exit_notification">Tap back button in order to exit</string>
+
+    <string name="description_refresh_button">Refresh</string>
+    <string name="description_hotel_image">Image of the hotel</string>
+
+    <string name="preference_sort">preference_sort</string>
+    <string name="preference_sort_title">Sort By:</string>
+    <string name="sort_entry_distance">Distance</string>
+    <string name="sort_entry_rooms_available">Rooms available</string>
+    <string name="sort_entry_value_distance">sort_option_distance</string>
+    <string name="sort_entry_value_rooms_available">sort_option_rooms_available</string>
+    <string-array name="sort_entries">
+        <item>@string/sort_entry_distance</item>
+        <item>@string/sort_entry_rooms_available</item>
+    </string-array>
+    <string-array name="sort_entries_value">
+        <item>@string/sort_entry_value_distance</item>
+        <item>@string/sort_entry_value_rooms_available</item>
+    </string-array>
+
+    <string name="preference_unit">preference_unit</string>
+    <string name="preference_unit_title">Units:</string>
+    <string name="unit_entry_metric">Metric</string>
+    <string name="unit_entry_imperial">Imperial</string>
+    <string name="unit_entry_value_metric">sort_option_distance</string>
+    <string name="unit_entry_value_imperial">sort_option_rooms_available</string>
+    <string name="menu_title_sort">Sorting</string>
+    <string-array name="unit_entries">
+        <item>@string/unit_entry_metric</item>
+        <item>@string/unit_entry_imperial</item>
+    </string-array>
+    <string-array name="unit_entries_value">
+        <item>@string/unit_entry_value_metric</item>
+        <item>@string/unit_entry_value_imperial</item>
+    </string-array>
+
+</resources>

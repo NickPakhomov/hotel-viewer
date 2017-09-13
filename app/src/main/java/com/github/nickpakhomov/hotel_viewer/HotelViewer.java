@@ -1,0 +1,21 @@
+package com.github.nickpakhomov.hotel_viewer;
+
+import android.app.Application;
+
+/**
+ * Created by Nikolay Pakhomov on 31/08/17.
+ */
+
+
+public class HotelViewer extends Application {
+    /*@Override public void onCreate() {
+        super.onCreate();
+        if (LeakCanary.isInAnalyzerProcess(this)) {
+            // This process is dedicated to LeakCanary for heap analysis.
+            // You should not init your app in this process.
+            return;
+        }
+        LeakCanary.install(this);
+        // Normal app init code...
+    }*/
+}
