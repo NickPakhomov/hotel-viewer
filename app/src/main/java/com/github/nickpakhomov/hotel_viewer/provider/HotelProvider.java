@@ -17,7 +17,7 @@ import net.simonvt.schematic.annotation.TableEndpoint;
 
 public final class HotelProvider {
     
-    public static final String AUTHORITY = "com.github.nickpakhomov.cp_test.provider.provider";
+    public static final String AUTHORITY = "com.github.nickpakhomov.hotel_viewer.provider.provider";
     
     
     @TableEndpoint(table = HotelDatabase.HOTEL_INFO)
